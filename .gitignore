@@ -1,0 +1,22 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+### Spark and data files
+#*.crc
+#part-*
+#_SUCCESS*  # Dodajemy ignorowanie plików _SUCCESS i _SUCCESS.crc
+### logs
+*.log
+### else
+*.tmp
+*~
